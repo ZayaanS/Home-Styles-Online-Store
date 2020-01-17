@@ -1,0 +1,112 @@
+/* ------ General ------ */
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Lora', serif;
+	background-image: url("cssImages/background1.jpg");
+	background-size: cover;
+}
+
+/* ------ Navigation ------ */
+nav{
+	background-color: rgba(255,255,255,1);
+}
+
+nav a img{
+	height: 80px;
+}
+
+.navbar{
+	padding: 10px 50px;
+}
+
+.navbar .nav-item{
+	padding-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link{
+	color: #148268;
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color: #41bda0;
+}
+
+.sticky{
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* ------- Catalogue ------- */
+#Furniture{
+	max-width: 900px;
+	padding-top: 130px;
+}
+
+#Furniture .row{
+	padding-bottom: 0px;
+	background-color: rgba(255,255,255,0.4);
+	padding-top: 5px;
+}
+
+#Furniture h1{
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	color: #ffffffff;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+.modal img{
+	width: 320px;
+}
+
+.card{
+	border: none;
+}
+
+.card img{
+	border: none;
+}
+
+.card h4{
+	font-size: 18px;
+	padding: 0;
+	margin-bottom: -20px;
+}
+
+.card button{
+	margin-top: 5px;
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	color: #ffffffff;
+	background-color: #148268;
+}
+
+.card-body{
+	margin-top: -10px;
+	height: 130px;
+	background-color: transparent;
+}
+
+/* ------ Homeware ------ */
+#Homeware{
+	max-width: 900px;
+	padding-top: 130px;
+}
+
+#Homeware .row{
+	padding-bottom: 0px;
+	background-color: rgba(255,255,255,0.4);
+	padding-top: 5px;
+}
+
+#Homeware h1{
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	color: #ffffffff;
+	text-shadow: 2px 2px 8px #000000;
+}

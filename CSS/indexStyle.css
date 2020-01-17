@@ -1,0 +1,122 @@
+/* ------ General ------ */
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Lora', serif;
+}
+
+/* ------ Navigation ------ */
+nav{
+	background-color: rgba(255,255,255,1);
+}
+
+nav a img{
+	height: 80px;
+}
+
+.navbar{
+	padding: 10px 50px;
+}
+
+.navbar .nav-item{
+	padding-left: 10px;
+}
+
+.navbar-nav .nav-item .nav-link{
+	color: #148268;
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color: #41bda0;
+}
+
+.sticky{
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.dropdown button{
+	background-color: transparent;
+}
+
+/* ------ Landing ------ */
+#Landing{
+	background-image: url("cssImages/background1.jpg");
+	background-size: cover;
+	background-attachment: scroll;
+	height: 100vh;
+}
+
+#landingText{
+	padding-top: 35vh;
+	text-shadow: 2px 2px 8px #000000;
+}
+
+#landingText h1{
+	font-size: 100px;
+	color: #ffffff;
+	line-height: 100px;
+}
+
+#landingText button{
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	background-color: #000000;
+	color: #ffffff;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+
+#landingText button:hover{
+	cursor: pointer;
+	color: #000000;
+	background-color: #ffffff;
+	border: 2px solid #000000;
+}
+
+/* ------ About ------ */
+#About{
+	padding-top: 112px;
+	min-height: 100vh;
+}
+
+#About img{
+	width: 90vw;
+	max-width: 500px;
+	max-height: 80vh;
+}
+
+#About h1{
+	font-size: 60px;
+}
+
+#AboutImg{
+	background-color: #148268;
+	padding: 20px;
+}
+
+#AboutText{
+	padding: 50px;
+}
+
+/* ------- Contact ------ */
+#Contact{
+	background-color: rgba(0,0,0,0.7);
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#ContactLogo{
+	width: 150px;
+	margin-top: -30px;
+}
+
+#Contact h3{
+	font-size: 20px;
+}
